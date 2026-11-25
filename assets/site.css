@@ -61,10 +61,10 @@ main { flex: 1; }
 .hero h1 .grad { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .handle { margin: 8px 0 0; font-weight: 700; color: var(--cyan); }
 .bio { margin: 14px auto 0; max-width: 30ch; font-size: 1.15rem; font-weight: 600; color: var(--text); }
-.hero-dash { position: relative; max-width: 260px; margin: 0 auto; }
-.hero-dash::before { content: ""; position: absolute; inset: 12% 4% 2%; background: radial-gradient(circle, rgba(255, 46, 136, 0.35), transparent 65%); z-index: -1; }
-.hero-dash figcaption { text-align: center; font-size: 0.85rem; color: var(--muted); margin-top: 6px; }
-.hero-dash strong { color: var(--pink); }
+.hero-host { position: relative; max-width: 260px; margin: 0 auto; }
+.hero-host::before { content: ""; position: absolute; inset: 12% 4% 2%; background: radial-gradient(circle, rgba(255, 46, 136, 0.35), transparent 65%); z-index: -1; }
+.hero-host figcaption { text-align: center; font-size: 0.85rem; color: var(--muted); margin-top: 6px; }
+.hero-host strong { color: var(--pink); }
 
 /* social buttons */
 .socials { display: grid; gap: 12px; margin: 26px auto 0; max-width: 420px; }
@@ -118,7 +118,7 @@ main { flex: 1; }
   .hero h1 { font-size: 4rem; }
   .bio { margin-left: 0; font-size: 1.3rem; }
   .socials { margin-left: 0; }
-  .hero-dash { max-width: 340px; }
+  .hero-host { max-width: 340px; }
   .freebie { grid-template-columns: 130px 1fr; padding: 20px; gap: 24px; }
   .freebie img { width: 130px; }
   .freebie h2 { font-size: 1.4rem; }
